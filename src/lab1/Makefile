@@ -1,5 +1,5 @@
 export
-CROSS_=riscv64-linux-gnu-
+CROSS_=riscv64-unknown-linux-gnu-
 GCC=${CROSS_}gcc
 LD=${CROSS_}ld
 OBJCOPY=${CROSS_}objcopy
@@ -33,3 +33,4 @@ clean:
 	$(shell test -f vmlinux && rm vmlinux)
 	$(shell test -f System.map && rm System.map)
 	@echo -e '\n'Clean Finished
+							

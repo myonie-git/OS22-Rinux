@@ -55,3 +55,4 @@ SECTIONS
     /* 记录kernel代码的结束地址 */
     _ekernel = .;
 }
+
